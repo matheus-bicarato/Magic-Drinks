@@ -63,3 +63,8 @@ a{
     font-style: normal;
 }
 /* termino do header */
+
+.main-cima{
+    background-color: black;
+    width: 100%;
+}
