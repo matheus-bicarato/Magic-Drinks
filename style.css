@@ -39,7 +39,7 @@
 }
 .main-cima{
     /* background-color: black; */
-    width: 100%px;
+    width: 100%;
     height: 200px;
 }
 .dropdown-toggle{
@@ -70,18 +70,15 @@ a{
 }
 .destaque-ads{
     width: 100%;
-    height: 400px;
+    height: 400px   ;
     background-color: black;
 }
 .carousel-inner{
     height: 400px;
-    width: 100%;
-    display: flex;
+    width: 500px;
     justify-content: center;
     align-items: center;
 
 }
-.w-100{
-    width: 10px;
-    height: 400px;
-}
+
+
