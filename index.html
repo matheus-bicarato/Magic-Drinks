@@ -18,13 +18,23 @@
 <body>
     <header class="background">
         <div class="header-cima">
-           <ul class="lista itens-header">
-            <li><h4>Magic Drinks</h4></li>
-            <li><h4>Magic Drinks</h4></li>
-            <li><h4>Magic Drinks</h4></li>
-            <li><h4>Magic Drinks</h4></li>
-            <li><h4>Magic Drinks</h4></li>
-           </ul>
+            <ul class="lista itens-header">
+                <li>
+                    <h4>Magic Drinks</h4>
+                </li>
+                <li>
+                    <h4>Magic Drinks</h4>
+                </li>
+                <li>
+                    <h4>Magic Drinks</h4>
+                </li>
+                <li>
+                    <h4>Magic Drinks</h4>
+                </li>
+                <li>
+                    <h4>Magic Drinks</h4>
+                </li>
+            </ul>
         </div>
         <div class="header-baixo">
             <div class="img">
@@ -33,28 +43,64 @@
             </div>
             <nav class="navbar bg-body-tertiary">
                 <div class="container-fluid">
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="busque os produtos aqui! :" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Busque</button>
-                  </form>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="busque os produtos aqui! :"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Busque</button>
+                    </form>
                 </div>
-              </nav>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </nav>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     <i class="bi bi-person"></i>
                     login
                 </button>
                 <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" type="button">Action</button></li>
-                  <li><button class="dropdown-item" type="button">Another action</button></li>
-                  <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    <li><button class="dropdown-item" type="button">Action</button></li>
+                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                    <li><button class="dropdown-item" type="button">Something else here</button></li>
                 </ul>
-              </div>
-                <a href="#"><div class="carrinho"><i class="bi bi-cart-fill"></i></div></a>
+            </div>
+            <a href="#">
+                <div class="carrinho"><i class="bi bi-cart-fill"></i></div>
+            </a>
         </div>
     </header>
     <main class="main-cima">
-        
+        <div class="destaque-ads">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/soda-ads.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/soda-ads.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/soda-ads.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </main>
 </body>
 
