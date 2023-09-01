@@ -103,6 +103,9 @@ body {
     text-decoration: none;
     color: black;
 }
+.itens-header li a:hover{
+    color: midnightblue;
+}
 .itens-header li h4{
     font-size: 16px;
 }
