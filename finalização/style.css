@@ -159,165 +159,117 @@ main {
     border-radius: 10px;
 }
 
-/* footer */
-footer {
+
+.lista{
+    list-style: none;
+}
+.itens-header{
+    background-color: #04C4D9;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #9B2781;
-    font-size: 13px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-.escrita-footer {
-    line-height: 15px;
-    margin-left: 10px;
-    color: #fff;
-}
-
-.esquerda-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.esquerda-footer nav ul {
-    display: flex;
-    list-style-type: none;
+    justify-content: end;
     gap: 20px;
-    font-size: 13px;
-    margin-left:10px;
-}
 
-.esquerda-footer nav ul li a {
+    font-style: normal;
     text-decoration: none;
-    color: white;
+    color: black;
 }
-
-.esquerda-footer nav ul li a:hover {
-    text-decoration: underline;
+.itens-header li h4{
+    font-size: 16px;
 }
-.logo-social {
-    width: 28px;
-    height: 28px;
-}
-
-.links-social {
+.header-baixo{
     display: flex;
-    list-style-type: none;
+    flex-direction: row;
+    width: 100%;
+    /* box-shadow: 1px 1px 0px 0px black; */
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.barra-pesquisa{
+    background-color: black;
+    width: 900px;
+    height: 50px;
+}
+
+.form-control{
+    width: 700px;
+}
+
+.d-flex{
+    margin-top: -30px;
+}
+
+.main-cima{
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+}
+
+.dropdown-toggle{
+    width: 150px;
+}
+
+.carrinho{
+    /* margin-left: 20px; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
+    /* background-color: black; */
+    /* border: solid 0.1px; */
 }
 
-.redes-sociais {
-    margin-right: 15px;
+.bi-cart-fill{
+    font-size: 20px;
+    color: black;
 }
 
-.redes-sociais a {
-    text-decoration: none;
-    color: #fff;
+a{
+    font-style: normal;
 }
 
-.redes-sociais a:hover {
-    text-decoration: underline;
+/* termino do main */
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.footer h4{
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
+.footer span{
+    color: rgb(18, 108, 18);
+}
 
+.footer img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
-
-@media (max-width: 992px) {
-    /* __________Header__________ */
-    header ul {
-        gap: 15px;
-        height: 50px;
-    }
-
-    .div-logo {
-        width: 122.25px;
-    }
-
-    .lista-icons-header {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
-
-    .icon-header {
-        width: 30.75px;
-        height: 28.5px;
-    }
-
-    #logoSite {
-        width: 45px;
-        height: 45px;
-    }
-
-    /* menu do header */
-    .menu {
-        display: none;
-    }
-
-    .menu-ativado {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        background-color: #960C77;
-        height: 300px;
-        width: 95%;
-        top: 0.5%;
-        left: 50%;
-        transform: translateX(-50%);
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        border-radius: 7px;
-        border: 1.5px solid #d108a5;
-    }
-
-    .desactive {
-        display: none;
-    }
-
-    .div-hamburguer {
-        display: flex;
-        width: 122.25px;
-        justify-content: center;
-    }
-
-    #menu-hamburguer {
-        width: 24px;
-        height: 24px;
-        display: block;
-    }
-
-    #fechar {
-        width: 24px;
-        height: 24px;
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        cursor: pointer;
-        filter: invert(100%);
-    }
-
-    .menu-perfil {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        background-color: #8f508b;
-        color: black;
-        top: 8%;
-        right: 6.3%;
-        padding: 25px;
-        border-radius: 5px;
-        height: 110px;
-        gap: 25px;
-    }
-
-
+.footer i{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
