@@ -118,7 +118,7 @@ a{
     /* border: 1px solid magenta; */
     /* box-shadow: 0px 0px 10px 2px magenta; */
     box-sizing: border-box;
-    margin: auto;
+    align-items: center;
 }
 .main-meio{
     background: linear-gradient(180deg,#023059 30%,#04C4D9 100%,#023059 80%);
@@ -141,21 +141,11 @@ a{
     line-height: 25px; 
     padding: 0px 10px 0px 10px;
     position: absolute;
-    color: #0eb319;
-    
-}
-.estrela{
-    max-width: 30px;
-    max-height: 30px;
-    background-color: #023059;
-    opacity: 50%;
-}
-.avaliacao{
+    color: blue;
     justify-content: end;
     align-items: end;
     display: flex;
-    flex-direction: column;
-    margin-top: 170px;
+    
 }
 /* termino do main meio */
 
