@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    box-shadow: 1px 4px black;
+    /* box-shadow: 1px 4px black; */
     justify-content: space-between;
 }
 .logo{
@@ -81,6 +81,60 @@ a{
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.escrita{
+    justify-content: center;
+    display: flex;
+}
+/* main cima acaba aqui */
+.rolagem {
+    position: absolute;
+    /* background-color: rgb(45, 45, 45); */
+    display: flex;
+    gap: 50px;
+    padding: 25px;
+    width: 90%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* border: 1px solid magenta; */
+    /* box-shadow: 0px 0px 10px 2px magenta; */
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.caixa {
+    position: relative;
+    height: 300px;
+    min-width: 200px;
+    background-color: black;
+    display: flex;
+}
+.caixa img {
+    height: 300px;
+    width: 200px;
+}
+.escrita-produto {
+    line-height: 25px; 
+    padding: 0px 10px 0px 10px;
+    position: absolute;
+    color: white;
+    
+}
+.estrela{
+    max-width: 30px;
+    max-height: 30px;
+    background-color: #023059;
+    opacity: 50%;
+}
+.avaliacao{
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
 }
 
 
