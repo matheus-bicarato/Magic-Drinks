@@ -13,11 +13,13 @@
     justify-content: end;
     gap: 20px;
 }
+
 .itens-header li a{
     font-style: normal;
     text-decoration: none;
     color: black;
 }
+
 .itens-header li h4{
     font-size: 16px;
 }
@@ -45,34 +47,6 @@
     display: none;
 }
 
-/* Menu que aparece quando clica na imagem de perfil */
-.menu-perfil {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #8f508b;
-    color: black;
-    top: 8%;
-    right: 6.3%;
-    padding: 25px;
-    border-radius: 5px;
-    height: 110px;
-}
-
-#fechar-perfil {
-    width: 19px;
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 7px;
-    cursor: pointer;
-    filter: invert(100%);
-}
-
-.desliga {
-    display: none;
-}
-
 /* main */
 body {
     width: 100%;
@@ -81,14 +55,16 @@ body {
 
 main {
     /* background-color: red; */
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 25px;
-    width: 70%;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -45%);
+    min-width: 70%;
+    /* top: 45%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -45%); */
 }
 
 #titulo-main {
@@ -122,6 +98,7 @@ main {
     flex-direction: column;
     gap: 15px;
     border-radius: 10px;
+    min-width: 1100px;
 }
 
 .confirmacao-pedido p {
@@ -135,6 +112,7 @@ main {
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px 25px;
+    min-width: 1000px;
 }
 
 .informacoes-pedidos label {
@@ -163,6 +141,7 @@ main {
 .lista{
     list-style: none;
 }
+
 .itens-header{
     background-color: #04C4D9;
     display: flex;
@@ -174,9 +153,11 @@ main {
     text-decoration: none;
     color: black;
 }
+
 .itens-header li h4{
     font-size: 16px;
 }
+
 .header-baixo{
     display: flex;
     flex-direction: row;
@@ -185,15 +166,18 @@ main {
     justify-content: space-between;
     /* background-color: black; */
 }
+
 .logo{
     width: 100px;
     height: 100px;
     margin-top: -30px;
 }
+
 .img{
     display: flex;
     flex-direction: row;
 }
+
 .barra-pesquisa{
     background-color: black;
     width: 900px;
@@ -234,7 +218,7 @@ main {
     color: black;
 }
 
-a{
+a {
     font-style: normal;
 }
 
@@ -273,3 +257,4 @@ a{
     justify-content: center;
     display: flex;
 }
+
