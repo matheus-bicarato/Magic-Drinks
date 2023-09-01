@@ -81,14 +81,26 @@ a{
     /* background-color: rgba(red, green, blue, alpha); */
 }
 .carousel{
-    width: 600px;
+    min-width: 600px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+.carousel-item{
+    min-width: 600px;
+    min-height: 250px;
+    max-width: 600px;
+    max-height: 250px;
+    background-color: black;
+}
 .escrita{
     justify-content: center;
     display: flex;
+
+}
+.escrita i{
+    color: red;
 }
 /* main cima acaba aqui */
 .rolagem {
@@ -129,7 +141,7 @@ a{
     line-height: 25px; 
     padding: 0px 10px 0px 10px;
     position: absolute;
-    color: white;
+    color: #0eb319;
     
 }
 .estrela{
