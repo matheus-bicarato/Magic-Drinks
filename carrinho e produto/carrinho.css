@@ -1,0 +1,329 @@
+
+.container{
+    background: linear-gradient(180deg, #023059 10%, #04C4D9 100%,#023059 50% );
+}
+/* Form */
+#form-container {
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+@media(min-width: 768px) {
+    #form-container {
+        margin: 50px auto;
+        padding: 50px;
+    }
+}
+
+#form-container h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container a {
+    color: #222;
+    transition: .5s;
+}
+
+/* #form-container a:hover {
+    color: #FFCB48FF;
+  } */
+
+#form-container form {
+    padding-bottom: 50px;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container .form-floating label {
+    color: #CCC;
+}
+
+#form-container .form-floating>.form-control:focus~label {
+    color: #222;
+}
+
+#form-container .form-check-input:checked,
+#form-container input[type="submit"] {
+    color: #222;
+    background-color: #FFCB48;
+    border-color: #FFCB48FF;
+}
+
+.btn.btn-primary {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .btn.btn-primary {
+        width: auto;
+    }
+}
+
+/* Image */
+
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+}
+
+#link-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+/* ______________________________________________ */
+
+.lista{
+    list-style: none;
+}
+.itens-header{
+    background-color: #04C4D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+.itens-header li a{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+.itens-header li a:hover{
+    color: #023059;
+}
+.itens-header li h4{
+    font-size: 16px;
+}
+.header-baixo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 1px 1px 0px 0px black;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.barra-pesquisa{
+    background-color: black;
+    width: 900px;
+    height: 50px;
+}
+.form-control{
+    width: 700px;
+}
+.d-flex{
+    margin-top: -30px;
+}
+.main-cima{
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+}
+.dropdown-toggle{
+    width: 150px;
+}
+.carrinho{
+    /* margin-left: 20px; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    /* border: solid 0.1px; */
+}
+.bi-cart-fill{
+    font-size: 20px;
+    color: black;
+}
+a{
+    font-style: normal;
+}
+
+.cart-info p{
+    color: white;
+}
+
+.preco{
+    color: white;
+}
+
+.sub-preco{
+    color: white;
+}
+
+/* ______________________________________________ */
+
+/* Pagamento do produto detalhado (Página Pagamentos) */
+
+
+.cart-page {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #023059;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+    color: white;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: white;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid white;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+/* _____________________________________________________________ */
+/* Métodos de pagamento e Subtotais (Página Pagamentos) */
+
+.container-pag {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-left: 1px;
+    padding: 30px 5px;
+}
+
+.container-pag h4 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.parte {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+    margin-right: 10px;
+}
+
+.parte label {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.iconify {
+    padding: 0 10px;
+}
+
+.pagamento-2{
+    color: white;
+}
+
+/* _____________________________ */
+
+.confirmar-compra{
+    background-color: #023059;
+    height: 30px;
+    width: 187px;
+    margin-left: 668px;
+    border-radius: .25rem;
+}
+
+.confirmar-compra p{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer h4{
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer span{
+    color: rgb(18, 108, 18);
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer i{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
