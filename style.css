@@ -16,6 +16,12 @@
     color: black;
 }
 
+.dropdown-menu a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
 .itens-header li a:hover {
     color: #023059;
 }
