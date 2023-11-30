@@ -1,4 +1,6 @@
-
+body {
+    /* background-color: #023059; */
+}
 .container{
     background: linear-gradient(180deg, #023059 10%, #04C4D9 100%,#023059 50% );
 }
@@ -24,7 +26,7 @@
 }
 
 #form-container a {
-    color: #222;
+    color: #fff;
     transition: .5s;
 }
 
@@ -100,9 +102,6 @@
     font-style: normal;
     text-decoration: none;
     color: black;
-}
-.itens-header li a:hover{
-    color: #023059;
 }
 .itens-header li h4{
     font-size: 16px;
@@ -187,6 +186,10 @@ table {
     border-collapse: collapse;
 }
 
+.parte-de-cima{
+    color: #fff;
+}
+
 .cart-info {
     display: flex;
     flex-wrap: wrap;
@@ -196,8 +199,13 @@ th {
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #023059;
+    background: #064e8e;
     font-weight: normal;
+    
+}
+
+.remover{
+color: #fff;
 }
 
 td {
@@ -303,6 +311,7 @@ th:last-child {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: #04C4D9;
 }
 .footer h4{
     font-size: 11px;
@@ -326,4 +335,11 @@ th:last-child {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    /* Pagamentos */
+    .cart-info p {
+        display: none;
+    }
 }
