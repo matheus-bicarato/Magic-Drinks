@@ -75,7 +75,7 @@ a{
 /* termino do header */
 .main-cima{
     width: 100%;
-    height: 400px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -84,10 +84,16 @@ a{
     /* background-color: rgba(red, green, blue, alpha); */
 }
 .carousel{
-    width: 600px;
+    width: 500px;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.carousel-item{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
 }
 .escrita{
     justify-content: center;
