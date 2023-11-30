@@ -1,3 +1,4 @@
+
 .bi-arrow-left {
     font-size: 30px;
     color: black;
@@ -131,4 +132,68 @@ hr {
 .d-flex{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #04C4D9;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 42%;
+}
+
+.footer h4{
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer span{
+    color: rgb(18, 108, 18);
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer i{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    color: black;
+}
+
+.icone-zap i:hover {
+    color: green;
+}
+
+.icone-zap {
+    text-decoration: none;
+}
+
+.icone-insta i:hover {
+    color: purple;
+}
+
+.icone-insta {
+    text-decoration: none;
+}
+
+.icone-twitter {
+    text-decoration: none;
+}
+
+.icone-twitter i:hover {
+    color: blue;
 }
