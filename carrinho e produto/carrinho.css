@@ -323,6 +323,7 @@ th:last-child {
     color: rgb(18, 108, 18);
 }
 .footer img{
+    background-color: #04C4D9;
     width: 40px;
     height: 40px;
     align-items: center;
