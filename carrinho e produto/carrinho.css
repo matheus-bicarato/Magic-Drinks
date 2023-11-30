@@ -186,9 +186,7 @@ table {
     border-collapse: collapse;
 }
 
-.parte-de-cima{
-    color: #fff;
-}
+
 
 .cart-info {
     display: flex;
@@ -196,6 +194,7 @@ table {
 }
 
 th {
+    margin-top: -30px;
     text-align: left;
     padding: 5px;
     color: #fff;
@@ -292,10 +291,17 @@ th:last-child {
 
 .confirmar-compra{
     background-color: #023059;
-    height: 30px;
-    width: 187px;
+    height: 40px;
+    width: 210px;
     margin-left: 668px;
     border-radius: .25rem;
+}
+
+.confirmar-compra p{
+    margin-top: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .confirmar-compra p{
