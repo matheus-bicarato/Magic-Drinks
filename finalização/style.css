@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.itens-header{
+    background-color: #04C4D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+.itens-header li a{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.itens-header li h4{
+    font-size: 16px;
+}
+
+.icon-header {
+    width: 41px;
+    height: 38px;
+}
+
+#perfil {
+    border-radius: 100px;
+}
+
+.div-logo{
+    display: flex;
+    justify-content: center;
+    width: 173px;
+}
+
+#menu-hamburguer {
+    display: none;
+}
+
+.fechar {
+    display: none;
+}
+
+/* main */
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    /* background-color: red; */
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    min-width: 70%;
+    /* top: 45%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -45%); */
+}
+
+#titulo-main {
+    text-align: right;
+    font-weight: 400;
+}
+
+.seila img {
+    height: 40px;
+}
+
+.seila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3EC34B;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.seila label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.confirmacao-pedido {
+    background-color: #E0FFE3;
+    border: 1px solid #085F10;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    min-width: 1100px;
+}
+
+.confirmacao-pedido p {
+    font-size: 13px;
+}
+
+.informacoes-pedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 25px;
+    min-width: 1000px;
+}
+
+.informacoes-pedidos label {
+    font-size: 13px;
+}
+
+.informacoes-pedidos p {
+    font-size: 15px;
+}
+
+.informacoes-pedidos li {
+    font-size: 15px;
+}
+
+#butao {
+    text-decoration: none;
+    margin: auto;
+    font-size: 23px;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+
+.lista{
+    list-style: none;
+}
+
+.itens-header{
+    background-color: #04C4D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.itens-header li h4{
+    font-size: 16px;
+}
+
+.header-baixo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* box-shadow: 1px 1px 0px 0px black; */
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-pesquisa{
+    background-color: black;
+    width: 900px;
+    height: 50px;
+}
+
+.form-control{
+    width: 700px;
+}
+
+.d-flex{
+    margin-top: -30px;
+}
+
+.main-cima{
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+}
+
+.dropdown-toggle{
+    width: 150px;
+}
+
+.carrinho{
+    /* margin-left: 20px; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    /* border: solid 0.1px; */
+}
+
+.bi-cart-fill{
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    font-style: normal;
+}
+
+/* termino do main */
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer h4{
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer span{
+    color: rgb(18, 108, 18);
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer i{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
