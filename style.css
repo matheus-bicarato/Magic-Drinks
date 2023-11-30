@@ -1,25 +1,30 @@
-.lista{
+.lista {
     list-style: none;
 }
-.itens-header{
+
+.itens-header {
     background-color: #04C4D9;
     display: flex;
     flex-direction: row;
     justify-content: end;
     gap: 20px;
 }
-.itens-header li a{
+
+.itens-header li a {
     font-style: normal;
     text-decoration: none;
     color: black;
 }
-.itens-header li a:hover{
+
+.itens-header li a:hover {
     color: #023059;
 }
-.itens-header li h4{
+
+.itens-header li h4 {
     font-size: 16px;
 }
-.header-baixo{
+
+.header-baixo {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -27,35 +32,43 @@
     justify-content: space-between;
     /* background-color: black; */
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 100px;
     margin-top: -30px;
 }
-.img{
+
+.img {
     display: flex;
     flex-direction: row;
 }
-.barra-pesquisa{
+
+.barra-pesquisa {
     background-color: black;
     width: 900px;
     height: 50px;
 }
-.form-control{
+
+.form-control {
     width: 700px;
 }
-.d-flex{
+
+.d-flex {
     margin-top: -30px;
 }
-.main-cima{
+
+.main-cima {
     /* background-color: black; */
     width: 100%;
     height: 200px;
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
     width: 150px;
 }
-.carrinho{
+
+.carrinho {
     /* margin-left: 20px; */
     width: 150px;
     height: 40px;
@@ -65,40 +78,50 @@
     /* background-color: black; */
     /* border: solid 0.1px; */
 }
-.bi-cart-fill{
+
+.bi-cart-fill {
     font-size: 20px;
     color: black;
 }
-a{
+
+a {
     font-style: normal;
 }
+
 /* termino do header */
-.main-cima{
+.main-cima {
     width: 100%;
     height: 500px;
     justify-content: center;
     align-items: center;
     display: flex;
-    background: linear-gradient(180deg,#023059 30%,#04C4D9 100%,#023059 80%);
+    background: linear-gradient(180deg, #023059 30%, #04C4D9 100%, #023059 80%);
     background-attachment: fixed;
     /* background-color: rgba(red, green, blue, alpha); */
 }
-.carousel{
+
+.carousel {
     width: 500px;
+    /* height: auto; */
     justify-content: center;
     align-items: center;
     display: flex;
+    /* background-color: black; */
 }
-.carousel-item{
-    min-width: 400px;
-    max-width: 400px;
-    min-height: 400px;
-    max-height: 400px;
+
+.carousel-item {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: black; */
 }
-.escrita{
+
+.escrita {
     justify-content: center;
     display: flex;
 }
+
 /* main cima acaba aqui */
 .rolagem {
     position: absolute;
@@ -116,13 +139,16 @@ a{
     /* box-shadow: 0px 0px 10px 2px magenta; */
     box-sizing: border-box;
     margin: auto;
+    margin-left: 70px;
 }
-.main-meio{
-    background: linear-gradient(180deg,#023059 30%,#04C4D9 100%,#023059 80%);
+
+.main-meio {
+    background: linear-gradient(180deg, #023059 30%, #04C4D9 100%, #023059 80%);
     background-attachment: fixed;
     width: 100%;
     height: 450px;
 }
+
 .caixa {
     position: relative;
     height: 300px;
@@ -130,30 +156,35 @@ a{
     background-color: black;
     display: flex;
 }
+
 .caixa img {
     height: 300px;
     width: 200px;
 }
+
 .escrita-produto {
-    line-height: 25px; 
+    line-height: 25px;
     padding: 0px 10px 0px 10px;
     position: absolute;
     color: white;
-    
+
 }
-.estrela{
+
+.estrela {
     max-width: 30px;
     max-height: 30px;
     background-color: #023059;
     opacity: 50%;
 }
-.avaliacao{
+
+.avaliacao {
     justify-content: end;
     align-items: end;
     display: flex;
     flex-direction: column;
     margin-top: 170px;
 }
+
 /* termino do main meio */
 
 
@@ -161,30 +192,34 @@ a{
 
 
 /* termino do main */
-.footer{
+.footer {
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.footer h4{
+
+.footer h4 {
     font-size: 11px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.footer span{
+
+.footer span {
     color: rgb(18, 108, 18);
 }
-.footer img{
+
+.footer img {
     width: 40px;
     height: 40px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.footer i{
+
+.footer i {
     width: 40px;
     height: 40px;
     align-items: center;
