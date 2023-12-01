@@ -297,6 +297,10 @@ th:last-child {
     border-radius: .25rem;
 }
 
+.confirmar-compra a{
+    text-decoration: none;
+}
+
 .confirmar-compra p{
     margin-top: 7px;
     text-align: center;
