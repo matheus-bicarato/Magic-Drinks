@@ -1,5 +1,24 @@
 <?php
-include_once "conexao.php"
+include_once "conexao.php";
+
+if (isset($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['RG'], $_POST['CPF'])) {
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $RG = $_POST['RG'];
+    $CPF = $_POST['CPF'];
+
+    $sql = "INSERT INTO `cadastrar`(`id`, `nome`, `email`, `senha`, `RG`, `CPF`)
+            VALUES (NULL, '$nome', '$email', '$senha', '$RG', '$CPF')";
+
+    $result = mysqli_query($conn, $sql);
+
+if ($result) {
+    header("Location: cadastro.php?msg=Novo registro criado com sucesso!");
+} else {
+    echo "Failed: " . mysqli_error($conn);
+}
+}
 ?>
 
 <!DOCTYPE html>
@@ -68,29 +87,6 @@ include_once "conexao.php"
             </div>
         </div>
     </div>
-
-    <?php
-  
-      if (isset($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['RG'], $_POST['CPF'])) {
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        $RG = $_POST['RG'];
-        $CPF = $_POST['CPF'];
-
-        $sql = "INSERT INTO `cadastrar`(`id`, `nome`, `email`, `senha`, `RG`, `CPF`)
-                VALUES (NULL, '$nome', '$email', '$senha', '$RG', '$CPF')";
-
-        $result = mysqli_query($conn, $sql);
-
-    if ($result) {
-        header("Location: cadastro.php?msg=Novo registro criado com sucesso!");
-    } else {
-        echo "Failed: " . mysqli_error($conn);
-    }
-    }
-  
-  ?>
 </body>
 
 </html>
