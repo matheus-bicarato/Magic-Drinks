@@ -14,7 +14,7 @@
 if ($result->num_rows == 0) {
     echo "Failed: algo deu errado seu puto " . mysqli_error($conn);
     } else {   
-        header("Location: cadastro.php?msg=caralhoviado!");
+        header("Location: index.html?msg=caralhoviado!");
     }
 
 

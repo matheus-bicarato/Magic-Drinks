@@ -84,7 +84,7 @@ include ("conexao.php");
         $result = mysqli_query($conn, $sql);
 
         if ($result) {
-            header("Location: cadastro.php?msg=Novo registro criado com sucesso!");
+            header("Location: index.html?msg=Novo registro criado com sucesso!");
         } else {
             echo "Failed: " . mysqli_error($conn);
         }
