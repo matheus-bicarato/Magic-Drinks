@@ -1,24 +1,5 @@
 <?php
-include_once "conexao.php";
-
-if (isset($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['RG'], $_POST['CPF'])) {
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
-    $RG = $_POST['RG'];
-    $CPF = $_POST['CPF'];
-
-    $sql = "INSERT INTO `cadastrar`(`id`, `nome`, `email`, `senha`, `RG`, `CPF`)
-            VALUES (NULL, '$nome', '$email', '$senha', '$RG', '$CPF')";
-
-    $result = mysqli_query($conn, $sql);
-
-if ($result) {
-    header("Location: cadastro.php?msg=Novo registro criado com sucesso!");
-} else {
-    echo "Failed: " . mysqli_error($conn);
-}
-}
+include ("conexao.php"); 
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +14,7 @@ if ($result) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="../img/LOGO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
     <title>MAGIC DRINK</title>
 </head>
 
@@ -42,7 +23,7 @@ if ($result) {
         <div class="row gx-5">
             <div class="col-md-6">
                 <h2><i class="bi bi-cup-straw"></i> PÁGINA DE CADASTRO</h2>
-                <form method="post">
+                <form method="post" action="cadastro.php">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
                         <label for="name" class="form-label"><i class="bi bi-person-fill"></i> Digite seu nome completo</label>
@@ -78,7 +59,7 @@ if ($result) {
             <div class="col-md-6">
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <img src="../img/LOGO.png" alt="Tela de cadastro" class="img-fluid">
+                        <img src="img/LOGO.png" alt="Tela de cadastro" class="img-fluid">
                     </div>
                     <div class="col-12" id="link-container">
                         <a href="login.php"><i class="bi bi-check-circle-fill"></i> Eu já tenho uma conta</a>
@@ -87,6 +68,29 @@ if ($result) {
             </div>
         </div>
     </div>
+
+    <?php
+      if (isset($_POST['name'], $_POST['email'], $_POST['senha'], $_POST['RG'], $_POST['CPF'])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $RG = $_POST['RG'];
+        $CPF = $_POST['CPF'];
+
+        echo 'seu cu e meu';
+        $sql = "INSERT INTO `cadastrar`(`id`, `nome`, `email`, `senha`, `RG`, `CPF`)
+                VALUES (NULL, '$name', '$email', '$senha', '$RG', '$CPF')";
+
+        $result = mysqli_query($conn, $sql);
+
+        if ($result) {
+            header("Location: cadastro.php?msg=Novo registro criado com sucesso!");
+        } else {
+            echo "Failed: " . mysqli_error($conn);
+        }
+    }
+  
+  ?>
 </body>
 
 </html>
