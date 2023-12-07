@@ -1,3 +1,106 @@
+.lista {
+    list-style: none;
+}
+
+.itens-header {
+    background-color: #04C4D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+}
+
+.itens-header li a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.itens-header li a:hover {
+    color: #023059;
+    text-decoration: dashed;
+    font-style: italic;
+}
+
+.itens-header li h4 {
+    font-size: 16px;
+}
+
+.header-baixo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 1px 1px 0px 0px black;
+    justify-content: space-between;
+    margin-left: 25px;
+    /* background-color: black; */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-pesquisa {
+    background-color: black;
+    width: 900px;
+    height: 50px;
+}
+
+.form-control {
+    width: 700px;
+}
+
+.d-flex {
+    margin-top: -30px;
+}
+
+.main-cima {
+    /* background-color: black; */
+    width: 100%;
+    height: 200px;
+}
+
+.dropdown-toggle {
+    width: 150px;
+}
+
+.carrinho {
+    /* margin-left: 20px; */
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    /* border: solid 0.1px; */
+}
+
+.bi-cart-fill {
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    font-style: normal;
+}
+
+
+
 
 .bi-arrow-left {
     font-size: 30px;

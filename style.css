@@ -26,6 +26,8 @@
 
 .itens-header li a:hover {
     color: #023059;
+    text-decoration: dashed;
+    font-style: italic;
 }
 
 .itens-header li h4 {
@@ -69,8 +71,8 @@
 
 .main-cima {
     /* background-color: black; */
-    width: 100%;
-    height: 200px;
+    /* width: 100%; */
+    /* height: 200px; */
 }
 
 .dropdown-toggle {
