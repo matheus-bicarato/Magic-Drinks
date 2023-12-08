@@ -1,7 +1,6 @@
 .lista {
     list-style: none;
 }
-
 .itens-header {
     background-color: #04C4D9;
     display: flex;
@@ -9,7 +8,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 40px;
+    height: 70px;
 }
 
 .itens-header li a {
@@ -71,8 +70,8 @@
 
 .main-cima {
     /* background-color: black; */
-    width: 100%;
-    height: 200px;
+    /* width: 100%; */
+    /* height: 200px; */
 }
 
 .dropdown-toggle {
@@ -98,9 +97,6 @@
 a {
     font-style: normal;
 }
-
-
-
 
 .bi-arrow-left {
     font-size: 30px;
@@ -198,44 +194,6 @@ hr {
     }
 }
 
-/* HEADER */
-
-.lista{
-    list-style: none;
-}
-.itens-header{
-    background-color: #04C4D9;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 20px;
-}
-.itens-header li a{
-    font-style: normal;
-    text-decoration: none;
-    color: black;
-}
-.itens-header li a:hover{
-    color: #023059;
-}
-.itens-header li h4{
-    font-size: 16px;
-}
-
-/* BARRA PESQUISA */
-.barra-pesquisa{
-    background-color: rgb(181, 52, 52);
-    width: 900px;
-    height: 70px;
-}
-.form-control{
-    width: 900px;
-}
-
-.d-flex{
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
 /* FOOTER */
 .footer{
