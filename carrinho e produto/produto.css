@@ -403,9 +403,32 @@ justify-content: center;
 display: flex;
 }
 
-@media screen and (max-width: 600px) {
-/* pagamentos */
-.cart-info p {
-    display: none;
-}
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para telas com largura máxima de 600 pixels (tamanhos de celular) */
+  .content {
+      padding: 10px;
+  }
+  body {
+    /* padding: 16px; */
+    height: 108vh;
+  }
+  .suco_01{
+    margin-left: -180px;
+  }
+  .descricao{
+    margin-left: -200px;
+  }
+  .nome-do-produto{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 190px;
+  }
+  .preço-promo{
+    font-size: 30px;
+  }
+  .quantidade-promo{
+    margin-left: -150px;
+    margin-top: 20px;
+    width: 10px;
+  }
 }

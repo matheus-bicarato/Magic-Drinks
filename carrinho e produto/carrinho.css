@@ -364,9 +364,12 @@ th:last-child {
     display: flex;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     /* Pagamentos */
     .cart-info p {
         display: none;
+    }
+    .confirmar-compra{
+        margin-left: 300px;
     }
 }
