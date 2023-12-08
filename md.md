@@ -1,5 +1,7 @@
+
+
 ```sql
-CREATE TABLE usuarios (
+CREATE TABLE cadastrar (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(220) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(220) COLLATE utf8mb4_unicode_ci NOT NULL,
